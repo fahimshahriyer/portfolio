@@ -18,10 +18,18 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: url(../../public/assets/background-noise.png) #0d0c22;
+}
+
+.greetings {
+  font-size: 320px;
+  color: #535353;
+  opacity: 0.13;
+  z-index: -1;
+}
+
+@media only screen and (max-width: 600px) {
+  .greetings {
+    font-size: 120px;
+  }
 }

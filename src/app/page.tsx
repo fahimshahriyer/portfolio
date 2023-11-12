@@ -36,7 +36,7 @@ export default function Home() {
         </div>
         <div className="col-span-3 md:col-span-1 mt-4 md:mt-0">
           <p className="text-center md:text-left text-sm mb-2">
-            shahriyers@gmail.com
+            <a href="mailto:shahriyers@gmail.com">shahriyers@gmail.com</a>
           </p>
           <p className="text-center md:text-left text-sm">
             <a

@@ -22,7 +22,6 @@ body {
 }
 
 .greetings {
-  font-size: 320px;
   color: #535353;
   opacity: 0.13;
   z-index: -1;
